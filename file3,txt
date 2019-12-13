@@ -1,0 +1,10 @@
+for i in `cat`
+do
+echo "==$i=="; ssh -q $i ps -ef | grep -i pmon;
+done
+
+for i in `cat`
+do
+echo "==$i=="; ssh -q $i uname -a; 
+done
+
