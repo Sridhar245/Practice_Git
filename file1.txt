@@ -1,0 +1,5 @@
+inventory=all Rhel servers
+cat inventory | grep -i udtime*; 
+
+
+cat inventory | grep -i RHEL-5*;
