@@ -1,0 +1,7 @@
+inventory=All RHEl servers 
+cat inventory | grep -i vcenter;
+
+cat inventory | grep -i 3.10.*; 
+done
+do
+for i in 
