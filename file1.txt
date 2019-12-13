@@ -1,5 +1,6 @@
 inventory=all Rhel servers
-cat inventory | grep -i udtime*; 
-
+cat inventory | grep -i uptime*; 
 
 cat inventory | grep -i RHEL-5*;
+
+we need to check Firmware as well
